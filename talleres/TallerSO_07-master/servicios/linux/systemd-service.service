@@ -1,0 +1,13 @@
+[Unit]
+Description=A example how create a service for systemd
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/systemd-service
+Restart=always
+User=saraz
+Group=saraz
+WorkingDirectory=/home/saraz
+
+[Install]
+WantedBy=default.target
