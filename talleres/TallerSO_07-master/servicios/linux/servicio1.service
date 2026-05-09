@@ -1,0 +1,13 @@
+[Unit]
+Description=Servicio eco con inversion de mayusculas/minusculas (Ejercicio 1)
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/servicio1
+Restart=on-failure
+User=saraz
+Group=saraz
+WorkingDirectory=/tmp
+
+[Install]
+WantedBy=default.target
