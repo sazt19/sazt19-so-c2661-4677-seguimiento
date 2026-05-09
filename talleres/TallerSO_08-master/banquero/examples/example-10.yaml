@@ -1,0 +1,17 @@
+---
+processes: 4
+resources: 1
+vectors:
+  availables: [15]
+  max: [
+    [70],
+    [60],
+    [60],
+    [60],
+  ]
+  allocated: [
+    [45],
+    [40],
+    [15],
+    [35]
+  ]
